@@ -6,6 +6,8 @@ services:
     ports:
 
       - "4566:4566"
+      - "4510-4515:4510-4515"
+      
     environment:
       - DOCKER_HOST=unix:///var/run/docker.sock
     volumes:
